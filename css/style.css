@@ -1,0 +1,331 @@
+/* common css start */
+*{
+    margin: 0;
+    padding: 0;
+}
+ul,ol{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+/* common css start */
+
+/* navbar part */
+.navbar{
+    background:rgb(22, 2, 108);
+}
+.navbar-expand-lg .navbar-nav .nav-item{
+  padding-left: 35px;
+  padding-right: 35px;
+}
+.navbar-nav .nav-item .nav-link{
+    color:#fff;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+
+}
+.navbutton button{
+    padding: 18px 36px;
+    background: #1BBF00;
+    color: #fff;
+    font-size: 20px;
+    border-radius: 30px;
+    transition: .4s;
+}
+.navbutton button a{
+    color: #fff;
+}
+.navbutton button:hover{
+    color: #fff;
+    background:0;
+    border: 1px solid #1BBF00 ;
+}
+/* navbar part */
+
+/* banner part */
+#banner{
+background: url(../images/banner.jpg);
+padding-top:148px;
+padding-bottom: 254px;
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+position: relative;
+z-index: 1;
+}
+#banner::after{
+    z-index: -1;
+    content: '';
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(106, 98, 197, 0.872);
+}
+.text h1{
+    color:#fff;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 84px;
+    font-weight: 700; 
+}
+.text p {
+    color: #E6E5F3;
+    font-family: 'Paprika', cursive;
+    font-size: 24px;
+    font-weight: 400;
+    margin-left: 189px;
+    width: 743px;
+    margin-bottom: 16px;
+}
+.button-t {
+    margin-left: 293px;
+}
+.button-t button{
+    background: fixed;
+    padding: 20px 40px;
+    border-radius: 50px;
+    border: 0;
+    margin-left: 30px;
+    transition: .5s;
+    border: 1px solid #1BBF00;
+}
+.button-t button a{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: #fff;
+   
+}
+.button-t button:hover{
+  background: #1BBF00;
+    color: #fff;
+}
+
+/* banner part */
+
+
+/* client part */
+
+#clientpart{
+    padding: 283px 0px;
+    background: #fff;
+}
+#clientpart .client-details h4{
+ color: #1BBF00;
+ font-family: 'Open Sans', sans-serif;
+ font-weight: 800;
+ font-size: 64px;
+ line-height: 68px;
+}
+#clientpart .client-details p{
+ color: #141135;
+ font-family: 'Open Sans', sans-serif;
+ font-weight: 700;
+ font-size: 36px;
+ line-height: 40px;
+ position: relative;
+}
+
+#clientpart .client-details p::before {
+	content: '';
+	position: absolute;
+	width: 3px;
+	height: 92px;
+	background: rgba(79, 88, 95, 0.2);
+	top: -66px;
+	left: 300px;
+}
+.demo p::before{
+    display: none;
+}
+  /* client part */
+
+   /* choose part */
+#choose{
+    padding: 100px 0px;
+  border-top: 1px solid black;
+  border-right: 1px solid black;
+  border-bottom: 1px solid black;
+  border-left: 1px solid black;
+}
+
+.choose-left{
+    margin-left: 100px;
+    padding: 0px 0px 8px 30px;
+    transition: 0.5s;
+    margin-top: 5px;
+    
+}
+.choose-left:hover {
+    border-radius: 12px;
+	padding: 30px 146px 10px 30px ;
+	box-shadow: 0px 2px 2px 0px rgba(162, 169, 192, 0.50);
+}
+
+
+#choose .choose-left .choose-icon{
+    width: 25px;
+    height: 25px;
+    background: #1BBF00;
+    border-radius: 50%;
+    position: relative;
+}
+#choose .choose-left .choose-icon::after{
+    width: 25px;
+    height: 25px;
+    background: #CBC8F0;
+    border-radius: 50%;
+    content: '';
+    position: absolute;
+    margin-left: 13px;
+}
+#choose .choose-left p{    
+    font-family: 'Paprika', cursive;
+    font-weight: 400;
+    font-size: 18px;
+    color: #726E9E;
+    line-height: 30px;
+    margin-left: 60px;
+    margin-top: -10px;
+    width: 319px;
+}
+#choos .img{
+    position: relative;
+}
+#choose .a{
+    margin-top: -68px;
+}
+#choose .b {
+	position: absolute;
+	top: 1627px;
+	left: -10px;
+	overflow: hidden;
+}
+.choos-right {
+	margin-left: 150px;
+	margin-top: -12px;
+}
+#choose .choos-right h2{
+    color: #141135;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 48px;
+}
+#choose .choos-right p{
+    color: #726E9E;
+    font-family: 'Paprika', cursive;
+    font-weight: 400;
+    font-size: 18px;
+    width: 393px;
+    margin-top: 30px;
+    line-height: 30px;
+}
+#choose .choos-right .buton {
+	margin-top: 40px;
+}
+#choose .choos-right a{
+    color: #f9f9f9;
+    background: #1BBF00;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    padding: 20px 30px;
+    border-radius: 40px;
+}
+#choose .choos-right a:hover{
+    background: #f9f9f9;
+    color: #1BBF00;
+}
+   /* choose part */
+
+   /* what part */
+   #what{
+    background: #F6F5FF;
+    padding: 100px 0px;
+   }
+   
+   #what .what-part h2{
+    color: #141135;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 48px;
+    margin-bottom: 20px;
+
+   }
+    #what .what-part p{
+    color: #141135;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: 0.5px;
+    width: 350px;
+    margin-bottom: 56px;
+   }
+   #what .what-part a{
+    color: #fff;
+background: #1BBF00;
+font-family: 'Open Sans', sans-serif;
+font-weight: 700;
+font-size: 20px;
+line-height: 20px;
+padding: 20px 40px;
+
+border-radius: 40px;
+}
+#what .what-part a:hover{
+    background: #141135;
+    color: white;
+}
+#what  .design-1 .t h3{
+    font-family: 'Open Sans', sans-serif;
+font-weight: 700;
+font-size: 30px;
+line-height: 36px;
+color: #141135;
+margin-top: 32px;
+}
+#what  .design-1 .t p{
+    font-family: 'Paprika', cursive;
+font-weight: 400;
+font-size: 18px;
+line-height: 30px;
+color: #726E9E;
+margin-top: 1px;
+width: 257px;
+margin: 0 auto;
+margin-bottom: 15px;
+}
+.t a{
+    font-family: 'Open Sans', sans-serif;
+font-weight: 700;
+overflow: hidden;
+font-size: 18px;
+line-height: 30px;
+color: #141135;
+position: relative;
+padding: 10px 10px;
+border-radius: 100px;
+}
+
+.t a::after {
+	content: '';
+	position: absolute;
+	background: #1BBF00;
+	opacity: 0.3;
+	border-radius: 0px 100px 100px 0px;
+	width: 37%;
+	height: 85%;
+	top: 4px;
+	left: 78px;
+}
+.t a:hover::after{
+    left:0px;
+    
+}
+
+
+   /* what part */
